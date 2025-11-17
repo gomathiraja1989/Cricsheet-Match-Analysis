@@ -72,7 +72,7 @@ jupyter
 
 ## Project Structure
 ```
-mini_project-2/
+Cricsheet-Match-Analysis/
 ├─ data/
 │  ├─ raw_json/              # Downloaded match JSON files
 │  ├─ processed/             # Cleaned/flattened CSV or parquet
@@ -112,8 +112,8 @@ mini_project-2/
 
 ### 2. Clone & Environment
 ```bash
-git clone <repo-url>
-cd mini_project-2
+git clone https://github.com/gomathiraja1989/Cricsheet-Match-Analysis
+cd Cricsheet-Match-Analysis
 python -m venv .venv
 source .venv/Scripts/activate  # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
@@ -291,4 +291,5 @@ Save figures to `docs/eda_figures/` and embed in `docs/EDA_Presentation.pptx`.
 - Power BI dashboard for analysts, management, and fans.
 
 ---
+
 
